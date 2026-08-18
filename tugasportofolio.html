@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio • Gavin Danadyaksa</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="tugasportofolio.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <nav class="container">
+      <div class="logo">Gn<span>Dn</span></div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" style="font-family: Arial;">Tentang</a></li>
+        <li><a href="#skills" style="font-family: Arial;">Skill</a></li>
+        <li><a href="#projects" style="font-family: Arial;">Proyek</a></li>
+        <li><a href="#experience" style="font-family: Arial;">Pengalaman</a></li>
+        <li><a href="#awards" style="font-family: Arial;">Prestasi</a></li>
+        <li><a href="#contact" style="font-family: Arial;">Kontak</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <div class="badge"> Portofolio</div>
+        <h1>Halo, saya <span>Gavin Danadyaksa</span></h1>
+        <p style="font-family: Arial;">
+          Saya seorang <strong>mahasiswa</strong> yang antusias
+          di bidang IoT dan analisis data. Selamat datang di portofolio saya.
+        </p>
+        <div class="social-icons">
+          <a href="mailto:5009251008@student.its.ac.id" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/gavin-danadyaksa-ab049a34a/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/dodolketan5" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://instagram.com/gavindna/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div style="margin-top: 20px;">
+          <a href="#projects" class="btn">Lihat Proyek <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="https://media.licdn.com/dms/image/v2/D5603AQHe2BaNjbBSqQ/profile-displayphoto-scale_400_400/B56ZjW4rznH8Ak-/0/1755951841321?e=1788393600&v=beta&t=09lpXNos3GepWY-BLkiWD1BfQXL7U_mprPhI5zPZdBQ" alt="Foto Profil" />
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="section-title text-center">Tentang Saya</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p><strong>Gavin</strong> — Saya seorang mahasiswa dengan minat di bidang IoT, Analisis Data, dan Investasi. Saya percaya bahwa teknologi dapat menjadi alat untuk menciptakan dampak positif.</p>
+            <p>Saat ini saya fokus pada fundamental pengetahuan software dan IoT khususnya dengan menggunakan MATLAB. Saya senang belajar hal baru dan berkolaborasi dengan orang.</p>
+            <p><i class="fas fa-map-pin" style="color: var(--primary);"></i> &nbsp; Berbasis di Surabaya, Indonesia</p>
+          </div>
+          <div class="about-stats">
+            <div class="stat-item">
+              <div class="number">3+</div>
+              <div class="label">Tahun Pengalaman</div>
+            </div>
+            <div class="stat-item">
+              <div class="number">7+</div>
+              <div class="label">Proyek Selesai</div>
+            </div>
+            <div class="stat-item">
+              <div class="number">10+</div>
+              <div class="label">Sertifikat</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="section-title text-center">Keahlian</h2>
+        <div class="skills-wrapper">
+          <span class="skill-tag"><i class="fab fa-html5"></i> HTML5</span>
+          <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+          <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+          <span class="skill-tag"><i class="fab fa-code"></i> C++</span>
+          <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+          <span class="skill-tag"><i class="fab fa-git-alt"></i> Git</span>
+          <span class="skill-tag"><i class="fas fa-database"></i> MATLAB</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="section-title text-center">Proyek Unggulan</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <img src="karya1iot.png" alt="Proyek 1" />
+            <div class="project-body">
+              <h3>IoT Sensors</h3>
+              <p>Pengintegrasian DHT22, MQ-2, dengan output LED dan LCD I2C sebagai sensor ruang.</p>
+              <div class="tags"><span>C++</span><span>Wokwi</span></div>
+              <a href="https://wokwi.com/projects/472029751797479425" class="btn btn-outline">Lihat Detail</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="mainmatlab.png" alt="Proyek 2" />
+            <div class="project-body">
+              <h3>Proyek MATLAB</h3>
+              <p>Proyek MATLAB dengan studi kasus fisika mekanika yang mengantar saya menjadi Asisten Laboratorium Fisika Mekanika di Fisika ITS.</p>
+              <div class="tags"><span>MATLAB</span><span>Physics</span></div>
+              <a href="https://github.com/dodolketan5/caramenjadiaslabfismek" class="btn btn-outline">Lihat Detail</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="mainanloogiqo.png" alt="Proyek 3" />
+            <div class="project-body">
+              <h3>PKM: Loogiqo</h3>
+              <p>Ini adalah salah satu tahap permainan di game Loogiqo, mainan mengasah otak secara matematis.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+              <a href="https://www.fcbarcelona.com/en/" class="btn btn-outline">Lihat Detail</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PENGALAMAN -->
+    <section class="extra-section" id="experience">
+      <div class="container">
+        <h2 class="section-title text-center">Pengalaman</h2>
+        <div class="extra-grid">
+          <div class="extra-card">
+            <i class="fas fa-briefcase"></i>
+            <h4>Aslab Fisika Mekanika ITS</h4>
+            <div class="sub">Aug 2026 - Sekarang</div>
+            <p>Saya bertanggungjawab dalam memfasilitasi pembelajaran praktikan mengenai fisika mekanika dan berkoordinasi dengan sesama aslab dan pihak laboratorium.</p>
+          </div>
+          <div class="extra-card">
+            <i class="fas fa-briefcase"></i>
+            <h4>Anggota GDGoC ITS (WebDev)</h4>
+            <div class="sub">Feb 2026 -  Sekarang</div>
+            <p>Mengeksekusi setiap ide dari pembelajaran yang dilaukan dalam organisasi, tepatnya mengenai proses pembuatan situs.</p>
+          </div>
+          <div class="extra-card">
+            <i class="fas fa-briefcase"></i>
+            <h4>Volunteer LO EPW 16</h4>
+            <div class="sub">Okt 2025 - Nov 2025</div>
+            <p>Bertanggungjawab sebagai relawan humas menghubungkan panitia dan peserta selama berlangsungnya acara.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERTIFIKAT & ACHIEVEMENT -->
+    <section class="extra-section" style="background: var(--accent);" id="awards">
+      <div class="container">
+        <h2 class="section-title text-center">Sertifikat & Prestasi</h2>
+        <div class="extra-grid">
+          <div class="extra-card">
+            <i class="fas fa-certificate"></i>
+            <h4>Bronze Medalist Science Castle Malaysia 2024</h4>
+            <div class="sub">Leave a Nest Malaysia Sdn. Bhd. • 2024</div>
+            <p>Prestasi tim SMAN 6 Surabaya di bidang biokimia mengenai komposisi makanan.</p>
+          </div>
+          <div class="extra-card">
+            <i class="fas fa-trophy"></i>
+            <h4>Juara 3 Esai Nasional 2024</h4>
+            <div class="sub">FTMM Unair • 2024</div>
+            <p>Prestasi lomba dengan membawa tema industri komputasi dan tata kota.</p>
+          </div>
+          <div class="extra-card">
+            <i class="fas fa-certificate"></i>
+            <h4>Juara 1 Pidato Melayu 2024</h4>
+            <div class="sub">SMK Seri Pengkalan • 2024</div>
+            <p>Pidato bahasa melayu sebagai bagian dari acara student exchange oleh Farbig Education.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title text-center">Hubungi Saya</h2>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <p>Monggo dulur-dulur, kalau mau menghubungi saya bisa lewat beberapa akun di bawah ini.</p>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:5009251008@student.its.ac.id">5009251008@student.its.ac.id</a>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-linkedin-in"></i>
+              <a href="https://www.linkedin.com/in/gavin-danadyaksa-ab049a34a/">Gavin Danadyaksa</a>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-github"></i>
+              <a href="github.com/dodolketan5">dodolketan5</a>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-instagram"></i>
+              <a href="https://www.instagram.com/gavindna">gavindna</a>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Surabaya, Indonesia</span>
+            </div>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <input type="text" placeholder="Nama Lengkap" required />
+            <input type="email" placeholder="Email" required />
+            <input type="text" placeholder="Subjek" />
+            <textarea placeholder="Pesan Anda..." required></textarea>
+            <button type="submit" class="btn">Kirim Pesan <i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 <span>Gavin Danadyaksa</span> • Dibuat dengan <i class="fas fa-heart" style="color: #3aafa9;"></i> dan sedikit kantuk</p>
+    </div>
+  </footer>
+
+  <script src="tugasportofolio.js"></script>
+</body>
+</html>
